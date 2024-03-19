@@ -1,0 +1,12 @@
+- name: "Restaurant Order"
+  questions:
+    - question: "Choose a dish (options: pizza, hamburger):"
+      type: "options"
+      options: ["pizza", "hamburger"]
+    - question: "Choose toppings (options: olives, onions, tomatoes):"
+      type: "multichoice"
+      options: ["olives", "onions", "tomatoes"]
+    - question: "Choose drink (options: cola, lemonade, water):"
+      type: "options"
+      options: ["cola", "lemonade", "water"]
+      mandatory: true
